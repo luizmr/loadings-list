@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/loadings.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap"
+            rel="stylesheet"
+        />
+        <title>Utildades</title>
+    </head>
+    <body>
+        <ul class="container">
+            <li>
+                <!-- Animated Progress Bar -->
+
+                <div class="progress">
+                    <div class="progress-value"></div>
+                </div>
+            </li>
+            <li>
+                <!-- Fade Loading -->
+
+                <h1 class="fadeLoading">
+                    <span>L</span>
+                    <span>O</span>
+                    <span>A</span>
+                    <span>D</span>
+                    <span>I</span>
+                    <span>N</span>
+                    <span>G</span>
+                </h1>
+            </li>
+            <li>
+                <!-- Gradient Page Loader -->
+
+                <div class="gradientLoader">
+                    <span></span>
+                </div>
+            </li>
+            <li>
+                <!-- Water effect wave loading -->
+
+                <div class="waterLoading">
+                    <div class="loading"></div>
+                    <br />
+                    <center><b>LOADING...</b></center>
+                    <br />
+                    <div class="boxLoading"></div>
+                </div>
+            </li>
+            <li>
+                <!-- Animated Progress bar showing % -->
+
+                <div class="animatedBar">
+                    <i class="fa fa-battery-full batteryIcon"></i>
+                    <div class="progress2 progressMoved">
+                        <div class="progressBar2"></div>
+                        <div
+                            class="animatedLoader"
+                            style="--n: 1; --f: 0;"
+                        ></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <!-- 4 circles loading animation -->
+
+                <div class="circlesLoading">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </li>
+        </ul>
+
+        <script>
+            // animated progress bar showing %
+            CSS.registerProperty({
+                name: "--p",
+                syntax: "<integer>",
+                initialValue: 0,
+                inherits: true,
+            });
+        </script>
+    </body>
+</html>
